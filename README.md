@@ -40,10 +40,11 @@ Tambien podemos poner links:
 [GitHub](https://github.com)
 ```
 
-```md id="md5"
+
 ## Comandos para moverse entre carpetas
+
 Usa los mismos comandos que linux
-- cd nombre-de-la-carpeta
+- cd nombre-de-la-carpeta: para entrar a una carpeta
 Si una carpeta tiene espacios
 - cd "Nombre de la carpeta"
 - cd ..: ir a la carpeta anterior
@@ -52,7 +53,7 @@ Si una carpeta tiene espacios
 - ls: ver archivos de la carpta
 - ls -la: lo mismo pero con mas detalles
 
-# Comandos Git
+## Comandos Git
 
 - git status: muestra los archivos modificados, que esta listo para el commit y lo que no esta siendo trackeado
 - git diff: muestra exactamente que cambio en el codigo
@@ -65,6 +66,7 @@ Si una carpeta tiene espacios
 - git clone URL: Clona un proyecto
 - git log --graph --all
 
+
 ## Comandos de Ramas
 
 - git switch -c nueva-rama: Crea y cambia de rama
@@ -73,14 +75,17 @@ Si una carpeta tiene espacios
 - git branch: Ver en que rama estoy, tambien muestra todas y pone un asterisco en la rama que estoy parado con -r muestra las remotas y con -a muestra todas
 - git branch nueva-rama: crea una rama
 - git switch nueva-rama: cambia de rama
-### Borrar ramas(Importante no estar parado sobre la rama que queremos borrar)
+
+### Borrar ramas (Importante no estar parado sobre la rama que queremos borrar)
 Forma segura si la rama ya esta mergeada a otra rama.
 - git branch -d nombre-rama
+
 Si no esta mergeada(la borra aunque cambios sin integrar)
 - git branch -D nombre-rama
+
 Si la rama ya esta en GitHub
 - git push origin --delete nombre-rama
-```
+
 
 
 # ¿Que es una rama?
@@ -89,9 +94,11 @@ Es una linea de trabajo independiente dentro del proyecto
 
 Por ejemplo:
 
+```
 main: A --- B --- C
              \
 feature:      D --- E
+```
 
 - **Main** es la rama principal del proyecto
 - **Feature** es una copia donde probamos cambios sin romper nada
