@@ -25,5 +25,16 @@ Tambien podemos poner codigo
 
 ```python
 print("Hola mundo")
+```
+
+Para poner codigo usamos 3 "`" (AltGr + }]) esa tecla
+
+Tambien podemos poner links:
 
 
+---
+
+## Links
+
+```md id="md5"
+[GitHub](https://github.com)
