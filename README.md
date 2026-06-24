@@ -38,8 +38,9 @@ Tambien podemos poner links:
 
 ```md id="md5"
 [GitHub](https://github.com)
+```
 
-
+```md id="md5"
 ## Comandos para moverse entre carpetas
 Usa los mismos comandos que linux
 - cd nombre-de-la-carpeta
@@ -50,8 +51,6 @@ Si una carpeta tiene espacios
 - pwd: ver en que carpeta estamos
 - ls: ver archivos de la carpta
 - ls -la: lo mismo pero con mas detalles
-
-
 
 # Comandos Git
 
@@ -81,6 +80,7 @@ Si no esta mergeada(la borra aunque cambios sin integrar)
 - git branch -D nombre-rama
 Si la rama ya esta en GitHub
 - git push origin --delete nombre-rama
+```
 
 
 # ¿Que es una rama?
